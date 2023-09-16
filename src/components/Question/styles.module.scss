@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 16px;
   padding: 32px 0;
-  border-bottom: 1px solid #CBCBCB;
+  border-bottom: 1px solid var(--Gray-light, #CBCBCB);
 }
 
 .wrapper {
@@ -93,8 +93,8 @@
   text-transform: uppercase;
 
   &:hover {
-    color: #333;
-    border: 1px solid #333;
+    color: var(--Graphite, #333);
+    border: 1px solid var(--Graphite, #333);
   }
 }
 
