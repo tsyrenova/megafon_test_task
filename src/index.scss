@@ -1,9 +1,24 @@
 @import './styles/fonts.scss'; 
 
-body {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
-  font-family: 'MegaFon Graphik LC Web Smbd Regular';
+  font-family: "MegaFon Graphik", "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
 }
 
