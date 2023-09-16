@@ -1,9 +1,18 @@
 .category {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
 
-  .text {
-    padding-right: 10px;
-  }
+.text {
+  padding-right: 10px;
+}
+
+.icon {
+  transition: transform 0.3s ease-out;
+}
+
+.activeIcon {
+  transform: rotate(180deg);
+}
