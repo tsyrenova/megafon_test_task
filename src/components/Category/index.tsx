@@ -1,6 +1,6 @@
 import { FC, ReactNode, useState } from "react";
 import styles from "./styles.module.scss";
-import { BigArrowDownIcon } from "../Icons/BigArrowDownIcon";
+import { BigArrowDownIcon } from "../../Icons/BigArrowDownIcon";
 import cx from "classnames";
 
 type Props = {
